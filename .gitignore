@@ -205,3 +205,19 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- AI & LangChain Specifics ---
+# Ignore local vector database storage (ChromaDB / FAISS)
+.chroma/
+chroma_db/
+vector_store/
+
+# LangChain / LangGraph trace logs
+.langchain/
+.langgraph/
+
+# --- Environment Secrets (Double Check) ---
+# Ensure any variation of your secret file is blocked
+.env
+.env.test
+.env.development
