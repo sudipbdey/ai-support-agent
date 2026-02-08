@@ -1,0 +1,29 @@
+{
+  "articles": [
+    {
+      "topic": "Account",
+      "subject": "Password Reset",
+      "content": "To reset your password, go to the login page and click 'Forgot Password'. Enter your registered email address, and we will send you a secure link to create a new password."
+    },
+    {
+      "topic": "Bug",
+      "subject": "PDF Export Crash",
+      "content": "We are aware of an issue where selecting 'High Quality' during PDF export causes a crash. Our engineering team is currently working on a fix. As a temporary workaround, please use 'Standard Quality' for exports."
+    },
+    {
+      "topic": "Feature Request",
+      "subject": "Dark Mode Support",
+      "content": "Dark mode is one of our most requested features! While it is not currently available in the mobile app, it is on our roadmap for Q3 2026. Stay tuned for app updates."
+    },
+    {
+      "topic": "Billing",
+      "subject": "Refunds and Duplicate Charges",
+      "content": "For security and verification, all billing discrepancies must be reviewed by a human agent. If you see a duplicate charge, please provide your transaction ID for a manual refund process."
+    },
+    {
+      "topic": "Technical Issue",
+      "subject": "504 Gateway Timeout Errors",
+      "content": "Intermittent 504 errors usually indicate a server-side timeout. If this occurs during API integration, ensure your request timeout is set to at least 30 seconds. If it persists, it requires infrastructure escalation."
+    }
+  ]
+}
