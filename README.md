@@ -39,6 +39,6 @@ The agent handles ongoing issues by scheduling follow-up actions:
 
 ### 2. Installation
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/sudipbdey/ai-support-agent.git
 cd ai-support-agent
 pip install -r requirements.txt
